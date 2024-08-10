@@ -1,1 +1,38 @@
 first init
+
+WHAT WE WILL LEARN
+
+- A typical problem statement for machine learning
+- Downloading and exploring a dataset for machine learning
+- Linear regression w one variable using Scikit-learn
+- Linear regression w multiple variables
+- Using categorical features for machine learning
+- Regression coefficients and feature importance
+- Other models and techniques for regression using Scikit-learn
+- Applying linear regression to other datasets.
+
+
+The problem at hand is that you are the lead data scientist for ACME
+insurance. They task you with creating an automated dollar amount that
+accurately tells the customer based on several of their characterists
+how much they are likely to pay for an annual cost for insurance. We are
+given a csv file.
+
+Let's start by downloading the data set.
+
+---------------------
+
+1. We import the csv url and assign it to a variable.
+medical_charges_url = 'https://raw.githubusercontent.com/JovianML/opendatasets/master/data/medical-charges.csv'
+
+2. We import urlretrieve to be able to create a dataframe from the url.
+from urllib.request import urlretrieve
+
+3. We use urlretrieve, take the url and download it to a file called 'medical.csv'
+urlretrieve(medical_charges_url, 'medical.csv')
+
+4. Know we install pandas
+pip install pandas --quiet
+
+And import it in our file.
+import pandas as pd
