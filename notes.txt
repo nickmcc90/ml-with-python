@@ -36,3 +36,23 @@ pip install pandas --quiet
 
 And import it in our file.
 import pandas as pd
+
+5. Downloading the medical-charges csv file was easy!! All I had to do was..
+5a. brew install wget (into the terminal)
+5b. wget name_of_url (name_of_url is the csv file you need, http.)
+5c. It downloads!!!
+
+6. In order to successfully print the dataset, I have now as code:
+
+import pandas as pd
+
+medical_df = pd.read_csv('medical-charges.csv')
+print(medical_df)
+
+Where in the terminal, I did these lines:
+pip install --upgrade pandas
+pip install --upgrade six
+
+And then I code run the file and see the table!!
+
+Timestamp: 6:34
