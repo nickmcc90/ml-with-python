@@ -56,3 +56,12 @@ pip install --upgrade six
 And then I code run the file and see the table!!
 
 Timestamp: 6:34
+
+With this data, we can try to estimate what the "charges" column
+will equal by using age, sex, BMI, and stuff, through an application
+or something.
+
+7. Let's check the data types for the information with
+medical_df.info()
+
+timestamp: 8:05

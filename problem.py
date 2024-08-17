@@ -5,3 +5,6 @@ import pandas as pd
 
 medical_df = pd.read_csv('medical-charges.csv')
 print(medical_df)
+
+# checking the data types of the information
+medical_df.info()
