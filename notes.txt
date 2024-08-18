@@ -65,3 +65,5 @@ or something.
 medical_df.info()
 
 timestamp: 8:05
+
+timestamp: 9:49 // describe()
