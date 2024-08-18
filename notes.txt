@@ -67,3 +67,20 @@ medical_df.info()
 timestamp: 8:05
 
 timestamp: 9:49 // describe()
+This function gives us descriptive statistics.
+
+From the describe function, we know the average age is 39,
+minimum age is 18, minimum BMI is 15, maximum amount of money
+spent is 64,000 dollars. 50% people have medical charges under
+10k dollars. This shows a bit of a skew in the data, since 64,000
+seems to be an outlier.
+
+Try to draw inferences from the data at first glance.
+
+**We are able to save our notebook through jovian...
+pip install jovian --quiet
+import jovian
+jovian.commit()
+
+This is jupyter notebook syntax
+//timestamp: 12:56

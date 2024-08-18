@@ -8,3 +8,5 @@ print(medical_df)
 
 # checking the data types of the information
 medical_df.info()
+
+print(medical_df.describe())
