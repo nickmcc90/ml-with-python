@@ -84,3 +84,11 @@ jovian.commit()
 
 This is jupyter notebook syntax
 //timestamp: 12:56
+
+Let's explore the data by visualizing the relationships between
+the charges column and other columns.
+
+**So I'm figuring out how to run code in jupyter notebook. You type "jupyter notebook"
+inside the folder you want in the apple terminal, then you click "New" and "create new notebook".
+Then make sure the language you select is python 3. We will work on getting the csv imported and
+everything next time. I won't be typing in the problem.py anymore at that point. Maybe
