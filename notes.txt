@@ -92,3 +92,21 @@ the charges column and other columns.
 inside the folder you want in the apple terminal, then you click "New" and "create new notebook".
 Then make sure the language you select is python 3. We will work on getting the csv imported and
 everything next time. I won't be typing in the problem.py anymore at that point. Maybe
+
+**Now we are in jupyter notebook!!
+
+-----
+8. We will use matplotlib, seaborn, and plotly for visualization.
+First we install the necessary dependencies, and import what we need.
+
+!pip install plotly matplotlib seaborn --quiet
+
+import plotly.express as px
+import matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+# the percent line keeps the figures from being pop-ups, and instead has
+# them be figures in the resultant printed code.
+
+//timestamp: 14:46
