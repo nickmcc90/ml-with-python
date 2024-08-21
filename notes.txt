@@ -110,3 +110,15 @@ import seaborn as sns
 # them be figures in the resultant printed code.
 
 //timestamp: 14:46
+
+We include some styling to make the charts look better
+
+sns.set_style('darkgrid')
+matplotlib.rcParams['font.size'] = 14
+matplotlib.rcParams['figure.figsize'] = (10, 6)
+matplotlib.rcParams['figure.facecolor'] = '#00000000'
+# The settings above will improve the default style of the charts.
+
+Let's print out the age information in the set with this:
+
+//timestamp: 16:02
