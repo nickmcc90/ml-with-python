@@ -122,3 +122,26 @@ matplotlib.rcParams['figure.facecolor'] = '#00000000'
 Let's print out the age information in the set with this:
 
 //timestamp: 16:02
+
+ # we can make both a box plot and histogram with this code:
+
+fig = px.histogram(medical_df,
+                   x='age',
+                   marginal='box',
+                   nbins=47,
+                   title='Distribution of Age')
+fig.update_layout(bargap=0.1)
+fig.show()
+
+# we specify we only want to use the age. By specifying box, python will display
+# a box plot as well.
+
+# It is great to check all the factors at play when viewing a dataset.
+# The spike in 18 & 19 year old could be because the overall population has more 18
+# & 19 year olds. Once this is debunked, we can start making other assumptions, like
+# maybe there is a premium when you are below 20. Or maybe people get their insurance
+# right away when they turn 18.
+
+//timestamp 19:38
+
+//timestamp 24:42
